@@ -1,0 +1,8 @@
+raw/
+stock/
+*.png
+src.html
+build.py
+*.part
+RESEARCH.md
+__pycache__/

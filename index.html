@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Uzdatniacz wody AQUABION - ochrona przed kamieniem i rdzą | RAM-Tech</title>
+<meta name="description" content="AQUABION chroni rury, armaturę i AGD przed kamieniem i rdzą bez chemii, soli, prądu i magnesów. Oficjalny dystrybutor w Polsce: RAM-Tech Marcin Fijałkowski.">
+<link rel="preload" href="fonts/manrope-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-m-900.webp" media="(max-width:760px)" imagesrcset="img/hero-m-600.webp 600w, img/hero-m-900.webp 900w, img/hero-m-1200.webp 1200w" imagesizes="100vw">
+<link rel="preload" as="image" href="img/hero-1920.webp" media="(min-width:761px)" imagesrcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w" imagesizes="100vw">
+<style>
+@font-face{font-family:Manrope;src:url(fonts/manrope-rdzen.woff2) format("woff2");font-weight:400 800;font-display:swap;unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B2,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Manrope;src:url(fonts/manrope-pl.woff2) format("woff2");font-weight:400 800;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--b:#0068B4;--t:#00B0EA;--n:#06325E;--ink:#0E2236;--mut:#4A5D70;--g:#F2F6FA;--line:#D9E3EC;--hh:72px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:400 17px/1.6 Manrope,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--b)}
+h1,h2,h3{font-weight:800;line-height:1.15;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(28px,3.2vw,44px);color:var(--n)}
+h3{font-size:21px;color:var(--n)}
+p{margin:0}
+.w{width:min(1200px,100% - 40px);margin-inline:auto}
+.btn{font-family:inherit;display:inline-flex;align-items:center;gap:10px;background:var(--t);color:#032440;font-weight:800;font-size:17px;text-decoration:none;padding:16px 26px;border-radius:6px;border:0;cursor:pointer;transition:background .2s,transform .2s}
+.btn:hover{background:#3cc6f2}
+form .btn{justify-content:center}
+.btn:active{transform:translateY(1px)}
+.btn.ciem{background:var(--b);color:#fff}
+.btn.ciem:hover{background:#0a7acb}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* naglowek */
+header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);height:var(--hh)}
+header .w{height:100%;display:flex;align-items:center;gap:28px}
+.logo img{width:176px;height:auto}
+nav{margin-left:auto;display:flex;gap:26px}
+nav a{color:var(--ink);text-decoration:none;font-weight:700;font-size:15px;padding:6px 0;border-bottom:2px solid transparent}
+nav a:hover{border-color:var(--t)}
+.tel{display:inline-flex;align-items:center;gap:8px;color:var(--b);font-weight:800;text-decoration:none;font-size:16px;border:2px solid var(--b);border-radius:6px;padding:9px 14px;white-space:nowrap}
+.tel svg{width:18px;height:18px}
+.tel:hover{background:var(--b);color:#fff}
+.burg{display:none;margin-left:auto;background:none;border:0;width:46px;height:46px;cursor:pointer;padding:10px}
+.burg span{display:block;height:2px;background:var(--n);margin:6px 0;transition:.25s}
+.menu-mob{display:none}
+
+/* hero */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:center;color:#fff;overflow:hidden;background:var(--n)}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(4,36,70,.92) 0%,rgba(4,40,78,.78) 42%,rgba(4,40,78,.18) 75%,rgba(4,40,78,0) 100%)}
+.hero .w{position:relative;z-index:2;padding:56px 0}
+.hero h1{font-size:clamp(34px,4.6vw,66px);max-width:14ch}
+.hero h1 span{display:block;font-size:.5em;font-weight:700;line-height:1.3;margin-top:18px;max-width:22ch;color:#CDEFFC}
+.hero .lead{font-size:clamp(17px,1.4vw,20px);max-width:36ch;margin-top:22px;color:#E6F3FB}
+.hero .cta{margin-top:30px;display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.hero .dyst{margin-top:28px;font-size:14.5px;color:#BFE0F2;max-width:40ch}
+.wir{position:absolute;z-index:1;pointer-events:none;color:#fff}
+.hero .wir{right:-140px;bottom:-180px;width:640px;opacity:.28}
+
+/* sekcje */
+section{padding:clamp(64px,8vw,110px) 0}
+.szary{background:var(--g)}
+.intro{max-width:62ch;color:var(--mut);margin-top:16px;font-size:18px}
+
+/* jak dziala */
+.jak{display:grid;grid-template-columns:minmax(0,573px) minmax(0,1fr);gap:clamp(32px,5vw,72px);align-items:center;margin-top:44px}
+.jak figure{margin:0;position:relative}
+.jak figure img{width:100%;max-width:573px;border-radius:8px}
+.jak figcaption{font-size:14px;color:var(--mut);margin-top:10px}
+.kroki{list-style:none;margin:0;padding:0;display:grid;gap:22px}
+.kroki li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:14px;align-items:start}
+.kroki b{display:block;color:var(--n);font-size:18px;margin-bottom:2px}
+.kroki p{color:var(--mut)}
+.znak{width:34px;height:34px;color:var(--t)}
+
+/* zalety */
+.zal{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:start}
+.lista{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.lista li{padding:16px 0 16px 34px;border-bottom:1px solid var(--line);position:relative;font-weight:600}
+.lista li::before{content:"";position:absolute;left:0;top:19px;width:20px;height:20px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300B0EA' stroke-width='2.2' stroke-linecap='round'%3E%3Cpath d='M3 15c3-6 9-8 14-5'/%3E%3Cpath d='M6 19c3-3 7-4 11-2'/%3E%3C/svg%3E") no-repeat center/contain}
+.certy{margin-top:34px}
+.certy img{width:100%;max-width:914px}
+.certy p{font-size:14px;color:var(--mut);margin-top:10px}
+
+/* zastosowania */
+.glowa{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap}
+.strz{display:flex;gap:10px}
+.strz button{width:48px;height:48px;border-radius:50%;border:2px solid var(--b);background:#fff;color:var(--b);cursor:pointer;font-size:20px;font-weight:800}
+.strz button:hover{background:var(--b);color:#fff}
+.tor{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 48px)/3);gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;margin-top:36px;padding-bottom:6px;scrollbar-width:none;cursor:grab}
+.tor::-webkit-scrollbar{display:none}
+.tor.ciag{cursor:grabbing;scroll-snap-type:none}
+.karta{scroll-snap-align:start;background:#fff;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;border:1px solid var(--line)}
+.karta img{aspect-ratio:3/2;object-fit:cover;width:100%;user-select:none;-webkit-user-drag:none}
+.karta div{padding:24px}
+.karta p{color:var(--mut);margin-top:10px;font-size:16px}
+
+/* koszt - ciemna */
+.ciemna{background:var(--n);color:#fff;position:relative;overflow:hidden}
+.ciemna h2{color:#fff;max-width:20ch}
+.ciemna .wir{left:-200px;top:-220px;width:620px;opacity:.12}
+.koszt{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:56px;align-items:center;position:relative}
+.koszt .duza{font-size:clamp(22px,2.2vw,30px);font-weight:700;line-height:1.35;color:#CDEFFC;margin-top:22px}
+.koszt ul{list-style:none;margin:0;padding:0;border-top:1px solid rgba(255,255,255,.18)}
+.koszt li{padding:18px 0;border-bottom:1px solid rgba(255,255,255,.18);color:#E2F0F9}
+.koszt li b{color:#fff;display:block;font-size:18px}
+
+/* ecowaterjet */
+.eco{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,5vw,72px);align-items:center}
+.eco img{border-radius:8px;width:100%;aspect-ratio:4/3;object-fit:cover}
+.eco p{color:var(--mut);margin-top:16px}
+.eco .test{margin-top:22px;padding:18px 20px;background:var(--g);border-radius:8px;color:var(--ink);font-size:16px}
+
+/* faq */
+.pyt{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:56px;align-items:start}
+.faq{border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;padding:22px 44px 22px 0;font-weight:700;font-size:18px;color:var(--n);position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";position:absolute;right:6px;top:50%;width:14px;height:14px;margin-top:-10px;border-right:2.5px solid var(--b);border-bottom:2.5px solid var(--b);transform:rotate(45deg);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(-135deg);margin-top:-3px}
+.faq details p{padding:0 0 22px;color:var(--mut);max-width:72ch}
+
+/* instalatorzy */
+.inst{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:40px;align-items:center;border:2px solid var(--b);border-radius:10px;padding:clamp(28px,4vw,48px)}
+.inst p{color:var(--mut);margin-top:12px;max-width:64ch}
+
+/* kontakt */
+.kont{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,5vw,72px);align-items:start}
+.osoba{display:flex;gap:18px;align-items:center;margin-top:28px}
+.osoba img{width:100px;height:100px;border-radius:50%;object-fit:cover}
+.osoba b{display:block;font-size:19px;color:var(--n)}
+.osoba span{color:var(--mut);font-size:15px}
+.dane{margin-top:26px;display:grid;gap:12px}
+.dane a{font-weight:800;font-size:20px;text-decoration:none;color:var(--b);display:inline-flex;gap:10px;align-items:center}
+.dane svg{width:20px;height:20px;flex:none}
+form{background:#fff;border:1px solid var(--line);border-radius:10px;padding:clamp(22px,3vw,36px);display:grid;gap:16px}
+label{display:grid;gap:6px;font-weight:700;font-size:15px;color:var(--n)}
+input,select,textarea{font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid #C5D3E0;border-radius:6px;background:#fff;color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--t);border-color:var(--t)}
+.dwa{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.zgoda{font-size:13.5px;color:var(--mut);font-weight:400}
+.wyslano{display:none;color:#0b6b3a;font-weight:700}
+
+/* stopka */
+footer{background:var(--n);color:#CFE3F1;padding:56px 0 28px;font-size:15px;position:relative;overflow:hidden}
+.st{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
+footer b{color:#fff}
+footer a{color:#fff;text-decoration:none}
+.logos{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.logos .rt{width:230px;height:auto}
+.st .logobox{background:#fff;border-radius:6px;padding:8px 12px;display:inline-flex}
+.st .logobox img{height:40px;width:auto}
+.st p+p{margin-top:8px}
+.dol{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.16);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+
+/* pasek mobilny */
+.mob{display:none}
+
+@media (max-width:1060px){
+  nav,.tel.top{display:none}
+  .burg{display:block}
+  .menu-mob{position:fixed;inset:var(--hh) 0 auto 0;background:#fff;border-bottom:1px solid var(--line);padding:10px 20px 24px;flex-direction:column;z-index:49;box-shadow:0 18px 30px rgba(6,50,94,.12)}
+  .menu-mob.ot{display:flex}
+  .menu-mob a{padding:14px 0;font-weight:700;font-size:18px;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .menu-mob a.btn{margin-top:18px;justify-content:center;border:0;color:#032440}
+  .burg.ot span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  .burg.ot span:nth-child(2){opacity:0}
+  .burg.ot span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  .tor{grid-auto-columns:calc((100% - 24px)/2)}
+}
+@media (max-width:760px){
+  :root{--hh:62px}
+  body{font-size:16px}
+  .hero{align-items:flex-end}
+  .hero::before{background:linear-gradient(180deg,rgba(4,36,70,.35) 0%,rgba(4,36,70,.72) 38%,rgba(4,36,70,.94) 100%)}
+  .hero .w{padding:40px 0 34px}
+  .hero h1{font-size:clamp(30px,8.6vw,40px)}
+  .hero h1 span{font-size:19px;margin-top:12px}
+  .hero .lead{font-size:16px;margin-top:14px}
+  .hero .cta{margin-top:24px}
+  .hero .cta .btn{width:100%;justify-content:center}
+  .hero .dyst{margin-top:18px;font-size:13.5px}
+  .hero .wir{width:420px;right:-170px;bottom:auto;top:-120px}
+  .jak,.zal,.koszt,.eco,.kont,.inst,.pyt{grid-template-columns:minmax(0,1fr)}
+  .pyt{gap:28px}
+  .logo img{width:132px}
+  .jak figure img{max-width:220px}
+  .jak figure{display:flex;gap:14px;align-items:center}
+  .jak figcaption{margin:0}
+  .zal{gap:36px}
+  .tor{grid-auto-columns:86%;gap:14px}
+  .strz{display:none}
+  .dwa{grid-template-columns:minmax(0,1fr)}
+  .st{grid-template-columns:1fr 1fr;gap:28px}
+  .st>div:first-child{grid-column:1/-1}
+  .inst .btn{justify-self:start}
+  .mob{display:grid;grid-template-columns:1fr 1.4fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);transform:translateY(110%);transition:transform .25s}
+  .mob.widac{transform:none}
+  .mob a{justify-content:center;padding:13px 10px;font-size:16px}
+  footer{padding-bottom:96px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="w">
+    <a class="logo" href="#" aria-label="AQUABION Polska - strona główna"><img src="img/logo.webp" width="407" height="110" alt="AQUABION"></a>
+    <nav aria-label="Menu">
+      <a href="#jak-dziala">Jak działa</a>
+      <a href="#zastosowania">Zastosowania</a>
+      <a href="#ecowaterjet">Ecowaterjet</a>
+      <a href="#pytania">Pytania</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="tel top" href="tel:+48665116711"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>665 116 711</a>
+    <button class="burg" aria-label="Otwórz menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="menu-mob" id="menuMob">
+  <a href="#jak-dziala">Jak działa</a>
+  <a href="#zastosowania">Zastosowania</a>
+  <a href="#ecowaterjet">Ecowaterjet</a>
+  <a href="#pytania">Pytania</a>
+  <a href="#kontakt">Kontakt</a>
+  <a class="btn" href="tel:+48665116711">Zadzwoń: 665 116 711</a>
+</div>
+
+<main>
+<section class="hero" style="padding:0">
+  <picture>
+    <source media="(max-width:760px)" srcset="img/hero-m-600.webp 600w, img/hero-m-900.webp 900w, img/hero-m-1200.webp 1200w" sizes="100vw">
+    <img src="img/hero-1920.webp" srcset="img/hero-1280.webp 1280w, img/hero-1920.webp 1920w, img/hero-2560.webp 2560w" sizes="100vw" width="2560" height="1707" alt="Zawirowana, czysta woda" fetchpriority="high">
+  </picture>
+  <svg class="wir" viewBox="0 0 400 400" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M200 200m-40 0a40 40 0 1 0 80 0a40 40 0 1 0-80 0"/><path d="M110 210a90 90 0 1 1 90 90"/><path d="M60 200a140 140 0 1 1 140 140"/><path d="M14 196a186 186 0 1 1 196 190"/><path d="M160 300c-30 24-70 30-110 18"/></svg>
+  <div class="w">
+    <h1>Uzdatniacz wody AQUABION<span>Kamień nie przywiera, a woda zostaje sobą.</span></h1>
+    <p class="lead">Chroni rury, armaturę, sprzęt AGD i instalacje w firmie przed kamieniem i rdzą. Bez chemii, soli, prądu i magnesów, bez obsługi przez 5-8 lat.</p>
+    <div class="cta">
+      <a class="btn" href="#kontakt">Zapytaj o dobór urządzenia <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <p class="dyst">Oficjalny dystrybutor w Polsce: RAM-Tech Marcin Fijałkowski, przedstawiciel austriackiej firmy Rabmer.</p>
+  </div>
+</section>
+
+<section id="jak-dziala">
+  <div class="w">
+    <h2>Jak działa AQUABION</h2>
+    <p class="intro">W porównaniu ze zmiękczaczem AQUABION niczego z wody nie usuwa i niczego do niej nie dodaje. Wapń i magnez zostają w wodzie, zmienia się tylko to, jak kamień zachowuje się w instalacji.</p>
+    <div class="jak">
+      <figure>
+        <img src="img/montaz.webp" width="573" height="272" alt="AQUABION montowany na miedzianej rurze" loading="lazy">
+        <figcaption>Urządzenie montuje się na rurze z wodą zimną, za wodomierzem.</figcaption>
+      </figure>
+      <ol class="kroki">
+        <li><svg class="znak" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 21c4-9 13-11 20-7"/><path d="M10 27c4-4 10-5 15-2"/></svg><div><b>Woda wpada w wir</b><p>Komora ze stali nierdzewnej mocno zawirowuje wodę i doprowadza ją do cynkowej anody.</p></div></li>
+        <li><svg class="znak" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 21c4-9 13-11 20-7"/><path d="M10 27c4-4 10-5 15-2"/></svg><div><b>Kamień zmienia postać</b><p>Wapń wytrąca się jako aragonit, który nie przykleja się do rur i grzałek, tylko wypływa z wodą.</p></div></li>
+        <li><svg class="znak" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 21c4-9 13-11 20-7"/><path d="M10 27c4-4 10-5 15-2"/></svg><div><b>Rura dostaje ochronę</b><p>Na wewnętrznej ściance tworzy się cienka patyna z cynkiem, która zatrzymuje dalszą korozję.</p></div></li>
+        <li><svg class="znak" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 21c4-9 13-11 20-7"/><path d="M10 27c4-4 10-5 15-2"/></svg><div><b>Bez obsługi przez lata</b><p>Urządzenie pracuje około 5-8 lat, zależnie od jakości i zużycia wody. Potem wymienia się je za 50% ceny.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="szary">
+  <div class="w zal">
+    <div>
+      <h2>Co się zmienia w domu i w firmie</h2>
+      <p class="intro">Każdy milimetr osadu w rurze to nawet 10% strat ciepła w grzejnikach. Zalegający kamień i korozja wżerowa kończą się pękniętymi rurami, spadkiem ciśnienia i czyszczeniem wymienników.</p>
+      <div class="certy">
+        <img src="img/certy.webp" width="914" height="77" alt="Certyfikaty i atesty AQUABION, m.in. DVGW W 270, WRAS, ACS, Made in Germany" loading="lazy">
+        <p>Atest wody pitnej PZH, certyfikaty europejskie, technologia z Niemiec i Austrii.</p>
+      </div>
+    </div>
+    <ul class="lista">
+      <li>Rury chronione przed kamieniem i korozją wżerową</li>
+      <li>Mniej czyszczenia armatury, płytek i kabiny prysznicowej</li>
+      <li>Czajnik, ekspres i pralka bez twardego osadu</li>
+      <li>Niższe rachunki za energię do ogrzewania wody</li>
+      <li>Woda o tym samym smaku, z wapniem i magnezem</li>
+      <li>Bez soli, tabletek i uzupełniania chemii</li>
+      <li>Koszt na 10 lat niższy niż przy zmiękczaczu</li>
+    </ul>
+  </div>
+</section>
+
+<section id="zastosowania">
+  <div class="w">
+    <div class="glowa">
+      <div>
+        <h2>Gdzie pracuje AQUABION</h2>
+        <p class="intro">Od jednego domu po hotel i halę produkcyjną. Dobieramy wielkość urządzenia do przepływu w instalacji.</p>
+      </div>
+      <div class="strz"><button type="button" data-k="-1" aria-label="Poprzednie">&#8592;</button><button type="button" data-k="1" aria-label="Następne">&#8594;</button></div>
+    </div>
+    <div class="tor" id="tor">
+      <article class="karta"><img src="img/dom-900.webp" srcset="img/dom-600.webp 600w, img/dom-900.webp 900w, img/dom-1200.webp 1200w" sizes="(max-width:760px) 86vw, (max-width:1060px) 48vw, 384px" width="1200" height="800" alt="Nowoczesny dom jednorodzinny" loading="lazy"><div><h3>Domy jednorodzinne</h3><p>Ochrona całej instalacji: kotła, bojlera, armatury i sprzętu AGD. Łatwiejsze utrzymanie czystości w łazience i kuchni.</p></div></article>
+      <article class="karta"><img src="img/hotel-900.webp" srcset="img/hotel-600.webp 600w, img/hotel-900.webp 900w, img/hotel-1200.webp 1200w" sizes="(max-width:760px) 86vw, (max-width:1060px) 48vw, 384px" width="1200" height="800" alt="Jasna łazienka z kabiną prysznicową" loading="lazy"><div><h3>Hotele i budynki mieszkalne</h3><p>Mniej pracy przy czyszczeniu armatury, pokoi i łazienek. Realna oszczędność dla właścicieli i wspólnot mieszkaniowych.</p></div></article>
+      <article class="karta"><img src="img/przemysl-900.webp" srcset="img/przemysl-600.webp 600w, img/przemysl-900.webp 900w, img/przemysl-1200.webp 1200w" sizes="(max-width:760px) 86vw, (max-width:1060px) 48vw, 384px" width="1200" height="800" alt="Rurociągi i armatura w hali przemysłowej" loading="lazy"><div><h3>Firmy i przemysł</h3><p>Wymienniki ciepła, pompy i maszyny bez osadów. Krótsze przestoje na czyszczenie i mniejsze ryzyko wymiany instalacji.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="ciemna">
+  <svg class="wir" viewBox="0 0 400 400" fill="none" stroke="#fff" stroke-width="1.6" aria-hidden="true"><path d="M110 210a90 90 0 1 1 90 90"/><path d="M60 200a140 140 0 1 1 140 140"/><path d="M14 196a186 186 0 1 1 196 190"/></svg>
+  <div class="w koszt">
+    <div>
+      <h2>Policzone na 10 lat, razem z wymianą</h2>
+      <p class="duza">Całkowity koszt zakupu i eksploatacji AQUABION jest co najmniej o 40% niższy niż przy konwencjonalnych systemach odkamieniania.</p>
+    </div>
+    <ul>
+      <li><b>Bez kosztów bieżących</b>Nie kupuje się soli, tabletek ani środków chemicznych. Urządzenie nie pobiera prądu.</li>
+      <li><b>Bez serwisu</b>Nie ma czego regenerować ani ustawiać. Po 5-8 latach wymiana za 50% ceny.</li>
+      <li><b>Sprawdzone w Europie</b>Ponad 200 000 sprzedanych urządzeń w ciągu 15 lat, m.in. w Niemczech, Francji i Anglii.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="ecowaterjet">
+  <div class="w eco">
+    <img src="img/prysznic-1200.webp" srcset="img/prysznic-800.webp 800w, img/prysznic-1200.webp 1200w, img/prysznic-1600.webp 1600w" sizes="(max-width:760px) 92vw, 560px" width="1600" height="1067" alt="Woda płynąca z deszczownicy" loading="lazy">
+    <div>
+      <h2>Ecowaterjet: do połowy mniej wody pod prysznicem</h2>
+      <p>Mała zwężka montowana przed wężem prysznicowym zawirowuje wodę. Strumień jest pełny, a zużycie wody i energii do jej podgrzania spada o 30-50%, zależnie od ciśnienia i słuchawki. Wirująca woda przy okazji czyści wąż i słuchawkę z osadów.</p>
+      <div class="test"><b>Test wiadra:</b> napełnij wiadro przez minutę ze zwykłej słuchawki, zaznacz poziom i powtórz z Ecowaterjet. Różnicę widać od razu. Oszczędności potwierdził TÜV Austria.</div>
+    </div>
+  </div>
+</section>
+
+<section id="pytania" class="szary">
+  <div class="w">
+    <div class="pyt"><div><h2>Najczęstsze pytania</h2><p class="intro">Nie ma tu Państwa pytania? Proszę zadzwonić albo napisać, odpowiem konkretnie dla Państwa instalacji.</p></div>
+    <div class="faq">
+      <details open><summary>Czy AQUABION zmienia smak wody?</summary><p>Nie. Urządzenie nie zmienia składu wody, więc wapń i magnez zostają. Smak i jakość wody pitnej są takie same jak przed montażem.</p></details>
+      <details><summary>Czym różni się od zmiękczacza?</summary><p>Zmiękczacz wymienia jony i trzeba do niego dokupować sól. AQUABION działa na zasadzie cynkowej anody protektorowej: nie potrzebuje chemii, soli, prądu ani magnesów i nie wymaga obsługi.</p></details>
+      <details><summary>Czy chroni też przed rdzą?</summary><p>Tak. Większe cząstki aragonitu delikatnie wymywają luźne osady rdzy, a na ściance rury powstaje patyna z cynkiem, która zatrzymuje dalszą korozję. Brązowa woda z rdzawej instalacji zwykle znika po 2-3 miesiącach.</p></details>
+      <details><summary>Czy są badania potwierdzające działanie?</summary><p>Działanie cynkowych anod badały m.in. Uniwersytet w Marburgu, Cranfield University, Uniwersytet w Rostocku i instytut IWW. Dokumenty prześlemy na prośbę.</p></details>
+      <details><summary>Jak dobrać wielkość urządzenia?</summary><p>Wystarczy podać średnicę rury przy wodomierzu i rodzaj budynku. Odpowiemy, który model pasuje do Państwa instalacji.</p></details>
+    </div></div>
+  </div>
+</section>
+
+<section>
+  <div class="w inst">
+    <div>
+      <h2>Jesteś instalatorem?</h2>
+      <p>Szukamy partnerów, którzy zajmą się dostawą, montażem i obsługą klientów w swojej okolicy. AQUABION to prosta w montażu alternatywa dla zmiękczaczy, także przy remontach instalacji.</p>
+    </div>
+    <a class="btn ciem" href="#kontakt">Program partnerski</a>
+  </div>
+</section>
+
+<section id="kontakt" class="szary">
+  <div class="w kont">
+    <div>
+      <h2>Porozmawiajmy o Państwa instalacji</h2>
+      <p class="intro">Napisz, jaki to budynek i jaka jest średnica rury przy wodomierzu. Odpowiem z doborem urządzenia i ceną.</p>
+      <div class="osoba">
+        <img src="img/marcin.webp" width="262" height="247" alt="Marcin Fijałkowski" loading="lazy">
+        <div><b>Marcin Fijałkowski</b><span>RAM-Tech, oficjalny dystrybutor AQUABION i Ecowaterjet</span></div>
+      </div>
+      <div class="dane">
+        <a href="tel:+48665116711"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>+48 665 116 711</a>
+        <a href="mailto:ramtech@aquabionpolska.pl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>ramtech@aquabionpolska.pl</a>
+      </div>
+    </div>
+    <form id="form" novalidate>
+      <div class="dwa">
+        <label>Imię i nazwisko<input name="imie" autocomplete="name"></label>
+        <label>Telefon lub e-mail<input name="kontakt" autocomplete="email"></label>
+      </div>
+      <label>Rodzaj budynku<select name="budynek"><option>Dom jednorodzinny</option><option>Mieszkanie / blok</option><option>Hotel, pensjonat</option><option>Firma, zakład produkcyjny</option><option>Jestem instalatorem</option></select></label>
+      <label>Wiadomość<textarea name="tresc" rows="4" placeholder="Np. średnica rury, twardość wody, problem z kamieniem lub rdzą"></textarea></label>
+      <p class="zgoda">Dane z formularza wykorzystamy tylko do odpowiedzi na zapytanie. Szczegóły w polityce prywatności.</p>
+      <button class="btn" type="submit">Wyślij zapytanie</button>
+      <p class="wyslano" id="ok">To formularz pokazowy w podglądzie, na docelowej stronie zapytanie trafi na ramtech@aquabionpolska.pl.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <svg class="wir" style="right:-160px;bottom:-200px;width:520px;opacity:.1" viewBox="0 0 400 400" fill="none" stroke="#fff" stroke-width="1.6" aria-hidden="true"><path d="M110 210a90 90 0 1 1 90 90"/><path d="M60 200a140 140 0 1 1 140 140"/><path d="M14 196a186 186 0 1 1 196 190"/></svg>
+  <div class="w">
+    <div class="st">
+      <div>
+        <div class="logos"><img class="rt" src="img/ramtech.webp" width="590" height="164" alt="RAM-Tech Water Solutions" loading="lazy"><span class="logobox"><img src="img/rabmer.webp" width="343" height="173" alt="Rabmer" loading="lazy"></span></div>
+        <p style="margin-top:18px">RAM-Tech Marcin Fijałkowski<br>Oficjalny dystrybutor AQUABION i Ecowaterjet w Polsce</p>
+      </div>
+      <div>
+        <p><b>Kontakt</b></p>
+        <p><a href="tel:+48665116711">+48 665 116 711</a></p>
+        <p><a href="mailto:ramtech@aquabionpolska.pl">ramtech@aquabionpolska.pl</a></p>
+      </div>
+      <div>
+        <p><b>Na stronie</b></p>
+        <p><a href="#jak-dziala">Jak działa</a></p>
+        <p><a href="#ecowaterjet">Ecowaterjet</a></p>
+        <p><a href="#pytania">Pytania</a></p>
+      </div>
+    </div>
+    <div class="dol"><span>© 2026 AQUABION Polska. Podgląd koncepcji strony.</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=aquabionpolska.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+  </div>
+</footer>
+
+<div class="mob" id="mob">
+  <a class="btn ciem" href="tel:+48665116711">Zadzwoń</a>
+  <a class="btn" href="#kontakt">Zapytaj o dobór</a>
+</div>
+
+<script>
+(function(){
+var b=document.querySelector('.burg'),m=document.getElementById('menuMob');
+b.addEventListener('click',function(){var o=m.classList.toggle('ot');b.classList.toggle('ot',o);b.setAttribute('aria-expanded',o)});
+m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('ot');b.classList.remove('ot');b.setAttribute('aria-expanded','false')}});
+var t=document.getElementById('tor');
+document.querySelectorAll('.strz button').forEach(function(x){x.addEventListener('click',function(){t.scrollBy({left:t.clientWidth*0.9*(+x.dataset.k),behavior:'smooth'})})});
+var d=false,sx=0,sl=0;
+t.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;d=true;sx=e.clientX;sl=t.scrollLeft;t.classList.add('ciag')});
+window.addEventListener('pointermove',function(e){if(d){t.scrollLeft=sl-(e.clientX-sx)}});
+window.addEventListener('pointerup',function(){if(d){d=false;t.classList.remove('ciag')}});
+document.getElementById('form').addEventListener('submit',function(e){e.preventDefault();document.getElementById('ok').style.display='block'});
+var mob=document.getElementById('mob'),cta=document.querySelector('.hero .cta');
+if('IntersectionObserver' in window){new IntersectionObserver(function(en){mob.classList.toggle('widac',!en[0].isIntersecting&&en[0].boundingClientRect.top<0)}).observe(cta)}
+})();
+</script>
+</body>
+</html>
